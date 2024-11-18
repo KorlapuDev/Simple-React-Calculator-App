@@ -23,7 +23,7 @@ To install all the dependences of the project, run the following command:
 
 #### Deployment Link:
 
-- Link : https://react-calculator-omega-navy.vercel.app/
+- Link : https://simple-react-calculator-app-j1ax.vercel.app/
 
 ![Project Preview](./src/calc-app.png)
 
