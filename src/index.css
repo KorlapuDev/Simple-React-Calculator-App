@@ -1,0 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Geist+Mono:wght@100..900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  background-image: linear-gradient(to right, #74ebd5 0%, #9face6 100%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Geist Mono", monospace;
+}
+
+.screen {
+  height: 4rem;
+  margin-bottom: 4rem;
+}
+
+.wrapper-calc {
+  background: #f6f8f9;
+  width: 60rem;
+  padding: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  box-shadow: 0px 9px 15px -3px rgba(0, 0, 0, 0.1);
+}
+
+.wrapperHeading {
+  color: #7c94ff;
+  background-color: #242424;
+  padding: 1rem;
+  border: 0.3rem dashed whitesmoke;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperHeading > div {
+  width: 7%;
+  margin-right: 1rem;
+}
+
+.mainWrapperContainer {
+  display: flex;
+  flex-direction: column;
+}
+
+.buttonBox {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 0.5rem;
+}
+
+.buttonStyle {
+  background: #242424;
+  height: 3.5rem;
+  padding: 10px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  color: whiteSmoke;
+  border: none;
+  font-size: 1.5rem;
+}
+
+.btnStyle2 {
+  background: #e9f0f4;
+  color: #242424;
+}
+
+.buttonStyle:hover {
+  border: 2px dotted whiteSmoke;
+}
+
+.btnStyle2:hover {
+  border: 2px dotted #242424;
+}
+.equals {
+  background: #4bd086;
+  grid-column: 3/5;
+  color: #242424;
+}
+
+.opt {
+  background: #7c94ff;
+  color: #242424;
+}
+.equals:hover {
+  border: 2px dotted #242424;
+}
+.opt:hover {
+  border: 2px dotted #242424;
+}
+
+.contentContainer {
+  display: flex;
+}
+
+.wrapperHeadingTitle {
+  color: #242424;
+  padding: 1rem;
+  display: flex;
+  align-items: center;
+}
+
+.wrapperHeadingTitle > div {
+  width: 7%;
+  margin-right: 1rem;
+  padding: 0.7rem;
+  background-color: #242424;
+  border-radius: 10px;
+}
